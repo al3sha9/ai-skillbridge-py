@@ -144,35 +144,3 @@ sentiment-analysis-project/
 5. **Stop Word Removal**: Remove common English stop words
 6. **Lemmatization**: Reduce words to their base form
 
-## 🎯 Future Improvements
-
-- [ ] Experiment with other algorithms (Random Forest, SVM, Neural Networks)
-- [ ] Implement cross-validation for better model evaluation
-- [ ] Add support for multi-class sentiment analysis
-- [ ] Create a web interface for real-time predictions
-- [ ] Optimize hyperparameters using GridSearch
-- [ ] Add word cloud visualizations
-- [ ] Implement deep learning models (LSTM, BERT)
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
-
-## 📝 Notes
-
-- The model is trained on a subset of 500 reviews for demonstration purposes
-- For full dataset training, remove the sampling line: `df = df.sample(500).copy()`
-- Ensure the IMDB dataset file is in the same directory as the notebook
-- The preprocessing may take several minutes for the full dataset
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-**Happy Analyzing! 🎬📊**
